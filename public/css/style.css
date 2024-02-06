@@ -20,7 +20,11 @@
     --tran-04: all 0.4s ease;
     --tran-05: all 0.5s ease;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -74,17 +78,17 @@ a{
 }
 .navbar {
     position: fixed;
+    width:100%;
     top: 0;
     left: 0;
-    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 25px;
     color: var(--primary-color-light);
     border-radius: 0px 0px 30px 30px;
-    z-index: 1000; /* Menetapkan indeks-z untuk memastikan navbar tetap di atas konten */
-    transition: background-color 0.3s ease; /* Transisi warna latar belakang ketika di-scroll */
+    z-index: 100; 
+    transition: background-color 0.3s ease; 
 }
 
 .logo {
@@ -382,7 +386,10 @@ a{
     font-size: 22px;
     font-weight: 300;
 }
-
+.top-section p{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
 .highlight {
     font-weight: 600;
 }
@@ -404,7 +411,11 @@ a{
     box-shadow: inset 0 2px 4px var(--shadow-color);
     font-size: 13px;
 }
-
+.month-used{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 .information {
     display: flex;
     align-items: end;
@@ -418,6 +429,9 @@ a{
 .flow{
     display: flex;
     flex-direction: column;
+}
+.flow .highlight{
+    font-weight: 600;
 }
 .in {
     color: var(--primary-color-green);

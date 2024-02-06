@@ -10,8 +10,10 @@
 </head>
 <body>
     <div class="container">
-        <div class="wrapper">
+        <div class="wrapper container-form simple-form">
+
             @yield('content')
+
         </div>
     </div>
 

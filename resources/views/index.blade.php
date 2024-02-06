@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="{{ asset('/img/logo-neo1.png') }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Catat Pengeluaran keuangan</title>
 </head>
 <body>
@@ -33,7 +34,7 @@
     <div class="thumbnail-text">
         <span>Kamu Ngerasa Pengeluaran Bulananmu Cepat Habis? </span>
         <p>Kamu bisa catat pengeluaran keuangan kamu disini secara mendetail dan rasakan manfaatnya</p>
-        <a href="dashboard.html">Coba Sekarang</a>
+        <a href="/home">Coba Sekarang</a>
         <a href="#" id="login-add">Login</a>
     </div>
 </div>

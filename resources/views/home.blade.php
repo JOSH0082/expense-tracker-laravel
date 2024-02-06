@@ -22,13 +22,13 @@
 </div>
 
 <div class="new-note">
-    <a href="create-pemasukan.html" class="in">Pemasukan<i class='bx bx-arrow-to-bottom'></i></a>
-    <a href="create-pengeluaran.html" class="out">Pengeluaran<i class='bx bx-arrow-from-bottom'></i></a>
+    <a href="/income/create" class="in">Pemasukan<i class='bx bx-arrow-to-bottom'></i></a>
+    <a href="/expense/create" class="out">Pengeluaran<i class='bx bx-arrow-from-bottom'></i></a>
 </div>
 
 <div class="menu">
-    <a href="category.html"><i class='bx bx-category'></i><span>Kategori</span></a>
-    <a href="source.html"><i class='bx bx-wallet' ></i><span>Sumber</span></a>
+    <a href="/category/index"><i class='bx bx-category'></i><span>Kategori</span></a>
+    <a href="/wallet/index"><i class='bx bx-wallet' ></i><span>Sumber</span></a>
     <a href="history.html"><i class='bx bx-history' ></i><span>Riwayat</span></a>
     <a href="#"><i class='bx bx-pie-chart-alt-2'></i><span>Statistik</span></a>
 </div>
